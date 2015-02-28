@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41D68AD1AA28B08004AE48F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68AC1AA28B08004AE48F /* main.m */; };
+		C41D68B01AA28B08004AE48F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68AF1AA28B08004AE48F /* AppDelegate.m */; };
+		C41D68B31AA28B08004AE48F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68B21AA28B08004AE48F /* ViewController.m */; };
+		C41D68B61AA28B08004AE48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B41AA28B08004AE48F /* Main.storyboard */; };
+		C41D68B81AA28B08004AE48F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B71AA28B08004AE48F /* Images.xcassets */; };
+		C41D68BB1AA28B08004AE48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B91AA28B08004AE48F /* LaunchScreen.xib */; };
+		C41D68C71AA28B08004AE48F /* location_reminder_felloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41D68C11AA28B08004AE48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41D689F1AA28B08004AE48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41D68A61AA28B08004AE48F;
+			remoteInfo = location_reminder_fello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41D68A71AA28B08004AE48F /* location_reminder_fello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = location_reminder_fello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D68AB1AA28B08004AE48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D68AC1AA28B08004AE48F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C41D68AE1AA28B08004AE48F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C41D68AF1AA28B08004AE48F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C41D68B11AA28B08004AE48F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C41D68B21AA28B08004AE48F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C41D68B51AA28B08004AE48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41D68B71AA28B08004AE48F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C41D68BA1AA28B08004AE48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = location_reminder_felloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D68C51AA28B08004AE48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = location_reminder_felloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41D68A41AA28B08004AE48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D68BD1AA28B08004AE48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41D689E1AA28B08004AE48F = {
+			isa = PBXGroup;
+			children = (
+				C41D68A91AA28B08004AE48F /* location_reminder_fello */,
+				C41D68C31AA28B08004AE48F /* location_reminder_felloTests */,
+				C41D68A81AA28B08004AE48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41D68A81AA28B08004AE48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41D68A71AA28B08004AE48F /* location_reminder_fello.app */,
+				C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41D68A91AA28B08004AE48F /* location_reminder_fello */ = {
+			isa = PBXGroup;
+			children = (
+				C41D68AE1AA28B08004AE48F /* AppDelegate.h */,
+				C41D68AF1AA28B08004AE48F /* AppDelegate.m */,
+				C41D68B11AA28B08004AE48F /* ViewController.h */,
+				C41D68B21AA28B08004AE48F /* ViewController.m */,
+				C41D68B41AA28B08004AE48F /* Main.storyboard */,
+				C41D68B71AA28B08004AE48F /* Images.xcassets */,
+				C41D68B91AA28B08004AE48F /* LaunchScreen.xib */,
+				C41D68AA1AA28B08004AE48F /* Supporting Files */,
+			);
+			path = location_reminder_fello;
+			sourceTree = "<group>";
+		};
+		C41D68AA1AA28B08004AE48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41D68AB1AA28B08004AE48F /* Info.plist */,
+				C41D68AC1AA28B08004AE48F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C41D68C31AA28B08004AE48F /* location_reminder_felloTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */,
+				C41D68C41AA28B08004AE48F /* Supporting Files */,
+			);
+			path = location_reminder_felloTests;
+			sourceTree = "<group>";
+		};
+		C41D68C41AA28B08004AE48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41D68C51AA28B08004AE48F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41D68A61AA28B08004AE48F /* location_reminder_fello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41D68CA1AA28B08004AE48F /* Build configuration list for PBXNativeTarget "location_reminder_fello" */;
+			buildPhases = (
+				C41D68A31AA28B08004AE48F /* Sources */,
+				C41D68A41AA28B08004AE48F /* Frameworks */,
+				C41D68A51AA28B08004AE48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = location_reminder_fello;
+			productName = location_reminder_fello;
+			productReference = C41D68A71AA28B08004AE48F /* location_reminder_fello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41D68BF1AA28B08004AE48F /* location_reminder_felloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41D68CD1AA28B08004AE48F /* Build configuration list for PBXNativeTarget "location_reminder_felloTests" */;
+			buildPhases = (
+				C41D68BC1AA28B08004AE48F /* Sources */,
+				C41D68BD1AA28B08004AE48F /* Frameworks */,
+				C41D68BE1AA28B08004AE48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41D68C21AA28B08004AE48F /* PBXTargetDependency */,
+			);
+			name = location_reminder_felloTests;
+			productName = location_reminder_felloTests;
+			productReference = C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41D689F1AA28B08004AE48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nacnud;
+				TargetAttributes = {
+					C41D68A61AA28B08004AE48F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C41D68BF1AA28B08004AE48F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C41D68A61AA28B08004AE48F;
+					};
+				};
+			};
+			buildConfigurationList = C41D68A21AA28B08004AE48F /* Build configuration list for PBXProject "location_reminder_fello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41D689E1AA28B08004AE48F;
+			productRefGroup = C41D68A81AA28B08004AE48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41D68A61AA28B08004AE48F /* location_reminder_fello */,
+				C41D68BF1AA28B08004AE48F /* location_reminder_felloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41D68A51AA28B08004AE48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D68B61AA28B08004AE48F /* Main.storyboard in Resources */,
+				C41D68BB1AA28B08004AE48F /* LaunchScreen.xib in Resources */,
+				C41D68B81AA28B08004AE48F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D68BE1AA28B08004AE48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41D68A31AA28B08004AE48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D68B31AA28B08004AE48F /* ViewController.m in Sources */,
+				C41D68B01AA28B08004AE48F /* AppDelegate.m in Sources */,
+				C41D68AD1AA28B08004AE48F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D68BC1AA28B08004AE48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D68C71AA28B08004AE48F /* location_reminder_felloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41D68C21AA28B08004AE48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41D68A61AA28B08004AE48F /* location_reminder_fello */;
+			targetProxy = C41D68C11AA28B08004AE48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41D68B41AA28B08004AE48F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41D68B51AA28B08004AE48F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41D68B91AA28B08004AE48F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41D68BA1AA28B08004AE48F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41D68C81AA28B08004AE48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41D68C91AA28B08004AE48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41D68CB1AA28B08004AE48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = location_reminder_fello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C41D68CC1AA28B08004AE48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = location_reminder_fello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C41D68CE1AA28B08004AE48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = location_reminder_felloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/location_reminder_fello.app/location_reminder_fello";
+			};
+			name = Debug;
+		};
+		C41D68CF1AA28B08004AE48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = location_reminder_felloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/location_reminder_fello.app/location_reminder_fello";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41D68A21AA28B08004AE48F /* Build configuration list for PBXProject "location_reminder_fello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D68C81AA28B08004AE48F /* Debug */,
+				C41D68C91AA28B08004AE48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41D68CA1AA28B08004AE48F /* Build configuration list for PBXNativeTarget "location_reminder_fello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D68CB1AA28B08004AE48F /* Debug */,
+				C41D68CC1AA28B08004AE48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C41D68CD1AA28B08004AE48F /* Build configuration list for PBXNativeTarget "location_reminder_felloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D68CE1AA28B08004AE48F /* Debug */,
+				C41D68CF1AA28B08004AE48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41D689F1AA28B08004AE48F /* Project object */;
+}
