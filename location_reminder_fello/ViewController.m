@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <MapKit/MapKit.h>
 
-@interface ViewController ()
+@interface ViewController () <MKMapViewDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 
 @end
 
@@ -16,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.mapView.delegate = self;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +28,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
+//MARK: handle button presses
+
+- (IBAction)homeButtonPressed:(UIButton *)sender {
+    
+}
+
+- (IBAction)randomButtonPressed:(UIButton *)sender {
+    
+}
+
+- (IBAction)codeFellowsButtonPressed:(UIButton *)sender {
+    
+}
 @end

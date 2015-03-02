@@ -14,6 +14,7 @@
 		C41D68B81AA28B08004AE48F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B71AA28B08004AE48F /* Images.xcassets */; };
 		C41D68BB1AA28B08004AE48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B91AA28B08004AE48F /* LaunchScreen.xib */; };
 		C41D68C71AA28B08004AE48F /* location_reminder_felloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */; };
+		C4B577AE1AA3F0E500657D8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B577AD1AA3F0E500657D8C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = location_reminder_felloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41D68C51AA28B08004AE48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = location_reminder_felloTests.m; sourceTree = "<group>"; };
+		C4B577AD1AA3F0E500657D8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B577AE1AA3F0E500657D8C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		C41D689E1AA28B08004AE48F = {
 			isa = PBXGroup;
 			children = (
+				C4B577AD1AA3F0E500657D8C /* MapKit.framework */,
 				C41D68A91AA28B08004AE48F /* location_reminder_fello */,
 				C41D68C31AA28B08004AE48F /* location_reminder_felloTests */,
 				C41D68A81AA28B08004AE48F /* Products */,
@@ -168,6 +172,11 @@
 				TargetAttributes = {
 					C41D68A61AA28B08004AE48F = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C41D68BF1AA28B08004AE48F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -414,6 +423,7 @@
 				C41D68CC1AA28B08004AE48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41D68CD1AA28B08004AE48F /* Build configuration list for PBXNativeTarget "location_reminder_felloTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +432,7 @@
 				C41D68CF1AA28B08004AE48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

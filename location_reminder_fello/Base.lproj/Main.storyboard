@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cMc-SN-8CX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="554"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXb-Wx-XVp">
+                                <rect key="frame" x="280" y="562" width="41" height="30"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtu-1l-r6c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87b-Kt-phh">
+                                <rect key="frame" x="523" y="562" width="53" height="30"/>
+                                <state key="normal" title="random">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bL8-Qy-Nmn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr1-Ff-H8e">
+                                <rect key="frame" x="24" y="562" width="87" height="30"/>
+                                <state key="normal" title="code fellows">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="codeFellowsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z6m-Ds-Hnf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="87b-Kt-phh" secondAttribute="bottom" constant="8" id="0ec-yU-uF8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zr1-Ff-H8e" secondAttribute="bottom" constant="8" id="17f-bG-fko"/>
+                            <constraint firstItem="87b-Kt-phh" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="8" id="7WN-es-x8J"/>
+                            <constraint firstItem="cMc-SN-8CX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ANf-AC-bdx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="87b-Kt-phh" secondAttribute="bottom" constant="8" id="Ahd-2L-ooM"/>
+                            <constraint firstItem="Zr1-Ff-H8e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="E7x-d1-fIS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="87b-Kt-phh" secondAttribute="trailing" constant="8" id="En8-x4-GAR"/>
+                            <constraint firstItem="VXb-Wx-XVp" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="8" id="G9v-Cw-Gbk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="46" id="G9z-qR-1xD"/>
+                            <constraint firstAttribute="centerX" secondItem="VXb-Wx-XVp" secondAttribute="centerX" id="J62-E5-yMg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zr1-Ff-H8e" secondAttribute="bottom" constant="8" id="JgF-3M-2q1"/>
+                            <constraint firstItem="cMc-SN-8CX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Qpy-06-ztn"/>
+                            <constraint firstItem="Zr1-Ff-H8e" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="8" id="Rbk-t8-0O0"/>
+                            <constraint firstItem="87b-Kt-phh" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="8" id="TlC-z8-QN0"/>
+                            <constraint firstItem="VXb-Wx-XVp" firstAttribute="leading" secondItem="Zr1-Ff-H8e" secondAttribute="trailing" constant="106" id="c4Y-Ln-7fy"/>
+                            <constraint firstItem="Zr1-Ff-H8e" firstAttribute="top" secondItem="cMc-SN-8CX" secondAttribute="bottom" constant="8" id="o7c-Kg-XaQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cMc-SN-8CX" secondAttribute="trailing" constant="-16" id="qjR-8c-mnL"/>
+                            <constraint firstItem="87b-Kt-phh" firstAttribute="leading" secondItem="VXb-Wx-XVp" secondAttribute="trailing" constant="117" id="tvS-qN-cBR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VXb-Wx-XVp" secondAttribute="bottom" constant="8" id="vlw-YP-xPO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="c4Y-Ln-7fy"/>
+                                <exclude reference="o7c-Kg-XaQ"/>
+                                <exclude reference="0ec-yU-uF8"/>
+                                <exclude reference="JgF-3M-2q1"/>
+                                <exclude reference="7WN-es-x8J"/>
+                                <exclude reference="tvS-qN-cBR"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="cMc-SN-8CX" id="i3S-oZ-E3E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
