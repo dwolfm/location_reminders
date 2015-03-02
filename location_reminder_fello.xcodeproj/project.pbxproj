@@ -15,6 +15,7 @@
 		C41D68BB1AA28B08004AE48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B91AA28B08004AE48F /* LaunchScreen.xib */; };
 		C41D68C71AA28B08004AE48F /* location_reminder_felloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */; };
 		C4B577AE1AA3F0E500657D8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B577AD1AA3F0E500657D8C /* MapKit.framework */; };
+		C4B577B11AA3FEC700657D8C /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		C41D68C51AA28B08004AE48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = location_reminder_felloTests.m; sourceTree = "<group>"; };
 		C4B577AD1AA3F0E500657D8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4B577AF1AA3FEC700657D8C /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C41D68AF1AA28B08004AE48F /* AppDelegate.m */,
 				C41D68B11AA28B08004AE48F /* ViewController.h */,
 				C41D68B21AA28B08004AE48F /* ViewController.m */,
+				C4B577AF1AA3FEC700657D8C /* AddReminderViewController.h */,
+				C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */,
 				C41D68B41AA28B08004AE48F /* Main.storyboard */,
 				C41D68B71AA28B08004AE48F /* Images.xcassets */,
 				C41D68B91AA28B08004AE48F /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B577B11AA3FEC700657D8C /* AddReminderViewController.m in Sources */,
 				C41D68B31AA28B08004AE48F /* ViewController.m in Sources */,
 				C41D68B01AA28B08004AE48F /* AppDelegate.m in Sources */,
 				C41D68AD1AA28B08004AE48F /* main.m in Sources */,
