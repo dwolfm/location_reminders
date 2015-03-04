@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - location_reminder_fello WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>location_reminder_fello WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>location_reminder_fello.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>C41D68BF1AA28B08004AE48F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44900B71AA5402D0032FD5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,6 +15,13 @@
 		C41D68BB1AA28B08004AE48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41D68B91AA28B08004AE48F /* LaunchScreen.xib */; };
 		C41D68C71AA28B08004AE48F /* location_reminder_felloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */; };
 		C44900A41AA530920032FD5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44900A31AA530920032FD5A /* DetailViewController.m */; };
+		C44900B01AA5402D0032FD5A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44900AF1AA5402D0032FD5A /* InterfaceController.m */; };
+		C44900B31AA5402D0032FD5A /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44900B21AA5402D0032FD5A /* NotificationController.m */; };
+		C44900B51AA5402D0032FD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44900B41AA5402D0032FD5A /* Images.xcassets */; };
+		C44900B91AA5402D0032FD5A /* location_reminder_fello WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C44900B81AA5402D0032FD5A /* location_reminder_fello WatchKit App.app */; };
+		C44900C11AA5402D0032FD5A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44900BF1AA5402D0032FD5A /* Interface.storyboard */; };
+		C44900C31AA5402D0032FD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44900C21AA5402D0032FD5A /* Images.xcassets */; };
+		C44900C61AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C44900A91AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C4B577AE1AA3F0E500657D8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B577AD1AA3F0E500657D8C /* MapKit.framework */; };
 		C4B577B11AA3FEC700657D8C /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */; };
 /* End PBXBuildFile section */
@@ -27,7 +34,35 @@
 			remoteGlobalIDString = C41D68A61AA28B08004AE48F;
 			remoteInfo = location_reminder_fello;
 		};
+		C44900BA1AA5402D0032FD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41D689F1AA28B08004AE48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44900B71AA5402D0032FD5A;
+			remoteInfo = "location_reminder_fello WatchKit App";
+		};
+		C44900C41AA5402D0032FD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41D689F1AA28B08004AE48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44900A81AA5402D0032FD5A;
+			remoteInfo = "location_reminder_fello WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C44900CD1AA5402D0032FD5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C44900C61AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C41D68A71AA28B08004AE48F /* location_reminder_fello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = location_reminder_fello.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +80,18 @@
 		C41D68C61AA28B08004AE48F /* location_reminder_felloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = location_reminder_felloTests.m; sourceTree = "<group>"; };
 		C44900A21AA530920032FD5A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C44900A31AA530920032FD5A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C44900A91AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "location_reminder_fello WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44900AC1AA5402D0032FD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44900AD1AA5402D0032FD5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C44900AE1AA5402D0032FD5A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		C44900AF1AA5402D0032FD5A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		C44900B11AA5402D0032FD5A /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		C44900B21AA5402D0032FD5A /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		C44900B41AA5402D0032FD5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C44900B81AA5402D0032FD5A /* location_reminder_fello WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "location_reminder_fello WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44900BE1AA5402D0032FD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44900C01AA5402D0032FD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C44900C21AA5402D0032FD5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C4B577AD1AA3F0E500657D8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C4B577AF1AA3FEC700657D8C /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
 		C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
@@ -66,6 +113,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C44900A61AA5402D0032FD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +129,8 @@
 				C4B577AD1AA3F0E500657D8C /* MapKit.framework */,
 				C41D68A91AA28B08004AE48F /* location_reminder_fello */,
 				C41D68C31AA28B08004AE48F /* location_reminder_felloTests */,
+				C44900AA1AA5402D0032FD5A /* location_reminder_fello WatchKit Extension */,
+				C44900BC1AA5402D0032FD5A /* location_reminder_fello WatchKit App */,
 				C41D68A81AA28B08004AE48F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +140,8 @@
 			children = (
 				C41D68A71AA28B08004AE48F /* location_reminder_fello.app */,
 				C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */,
+				C44900A91AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex */,
+				C44900B81AA5402D0032FD5A /* location_reminder_fello WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +191,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C44900AA1AA5402D0032FD5A /* location_reminder_fello WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C44900AE1AA5402D0032FD5A /* InterfaceController.h */,
+				C44900AF1AA5402D0032FD5A /* InterfaceController.m */,
+				C44900B11AA5402D0032FD5A /* NotificationController.h */,
+				C44900B21AA5402D0032FD5A /* NotificationController.m */,
+				C44900B41AA5402D0032FD5A /* Images.xcassets */,
+				C44900AB1AA5402D0032FD5A /* Supporting Files */,
+			);
+			path = "location_reminder_fello WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C44900AB1AA5402D0032FD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44900AC1AA5402D0032FD5A /* Info.plist */,
+				C44900AD1AA5402D0032FD5A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44900BC1AA5402D0032FD5A /* location_reminder_fello WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C44900BF1AA5402D0032FD5A /* Interface.storyboard */,
+				C44900C21AA5402D0032FD5A /* Images.xcassets */,
+				C44900BD1AA5402D0032FD5A /* Supporting Files */,
+			);
+			path = "location_reminder_fello WatchKit App";
+			sourceTree = "<group>";
+		};
+		C44900BD1AA5402D0032FD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44900BE1AA5402D0032FD5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,10 +241,12 @@
 				C41D68A31AA28B08004AE48F /* Sources */,
 				C41D68A41AA28B08004AE48F /* Frameworks */,
 				C41D68A51AA28B08004AE48F /* Resources */,
+				C44900CD1AA5402D0032FD5A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C44900C51AA5402D0032FD5A /* PBXTargetDependency */,
 			);
 			name = location_reminder_fello;
 			productName = location_reminder_fello;
@@ -171,6 +271,39 @@
 			productReference = C41D68C01AA28B08004AE48F /* location_reminder_felloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C44900A81AA5402D0032FD5A /* location_reminder_fello WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44900CA1AA5402D0032FD5A /* Build configuration list for PBXNativeTarget "location_reminder_fello WatchKit Extension" */;
+			buildPhases = (
+				C44900A51AA5402D0032FD5A /* Sources */,
+				C44900A61AA5402D0032FD5A /* Frameworks */,
+				C44900A71AA5402D0032FD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44900BB1AA5402D0032FD5A /* PBXTargetDependency */,
+			);
+			name = "location_reminder_fello WatchKit Extension";
+			productName = "location_reminder_fello WatchKit Extension";
+			productReference = C44900A91AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C44900B71AA5402D0032FD5A /* location_reminder_fello WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44900C71AA5402D0032FD5A /* Build configuration list for PBXNativeTarget "location_reminder_fello WatchKit App" */;
+			buildPhases = (
+				C44900B61AA5402D0032FD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "location_reminder_fello WatchKit App";
+			productName = "location_reminder_fello WatchKit App";
+			productReference = C44900B81AA5402D0032FD5A /* location_reminder_fello WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,6 +325,12 @@
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = C41D68A61AA28B08004AE48F;
 					};
+					C44900A81AA5402D0032FD5A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C44900B71AA5402D0032FD5A = {
+						CreatedOnToolsVersion = 6.2;
+					};
 				};
 			};
 			buildConfigurationList = C41D68A21AA28B08004AE48F /* Build configuration list for PBXProject "location_reminder_fello" */;
@@ -209,6 +348,8 @@
 			targets = (
 				C41D68A61AA28B08004AE48F /* location_reminder_fello */,
 				C41D68BF1AA28B08004AE48F /* location_reminder_felloTests */,
+				C44900A81AA5402D0032FD5A /* location_reminder_fello WatchKit Extension */,
+				C44900B71AA5402D0032FD5A /* location_reminder_fello WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +369,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44900A71AA5402D0032FD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44900B91AA5402D0032FD5A /* location_reminder_fello WatchKit App.app in Resources */,
+				C44900B51AA5402D0032FD5A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44900B61AA5402D0032FD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44900C11AA5402D0032FD5A /* Interface.storyboard in Resources */,
+				C44900C31AA5402D0032FD5A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +413,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C44900A51AA5402D0032FD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44900B31AA5402D0032FD5A /* NotificationController.m in Sources */,
+				C44900B01AA5402D0032FD5A /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -261,6 +429,16 @@
 			isa = PBXTargetDependency;
 			target = C41D68A61AA28B08004AE48F /* location_reminder_fello */;
 			targetProxy = C41D68C11AA28B08004AE48F /* PBXContainerItemProxy */;
+		};
+		C44900BB1AA5402D0032FD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44900B71AA5402D0032FD5A /* location_reminder_fello WatchKit App */;
+			targetProxy = C44900BA1AA5402D0032FD5A /* PBXContainerItemProxy */;
+		};
+		C44900C51AA5402D0032FD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44900A81AA5402D0032FD5A /* location_reminder_fello WatchKit Extension */;
+			targetProxy = C44900C41AA5402D0032FD5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -279,6 +457,14 @@
 				C41D68BA1AA28B08004AE48F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C44900BF1AA5402D0032FD5A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44900C01AA5402D0032FD5A /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +602,66 @@
 			};
 			name = Release;
 		};
+		C44900C81AA5402D0032FD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = location_reminder_fello_WatchKit_Extension;
+				INFOPLIST_FILE = "location_reminder_fello WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C44900C91AA5402D0032FD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = location_reminder_fello_WatchKit_Extension;
+				INFOPLIST_FILE = "location_reminder_fello WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C44900CB1AA5402D0032FD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "location_reminder_fello WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C44900CC1AA5402D0032FD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "location_reminder_fello WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +691,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C44900C71AA5402D0032FD5A /* Build configuration list for PBXNativeTarget "location_reminder_fello WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44900C81AA5402D0032FD5A /* Debug */,
+				C44900C91AA5402D0032FD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44900CA1AA5402D0032FD5A /* Build configuration list for PBXNativeTarget "location_reminder_fello WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44900CB1AA5402D0032FD5A /* Debug */,
+				C44900CC1AA5402D0032FD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
