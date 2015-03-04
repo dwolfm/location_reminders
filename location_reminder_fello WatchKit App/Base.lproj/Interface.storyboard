@@ -8,9 +8,51 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="oF1-dj-482">
+                            <items>
+                                <label alignment="center" text="Regions" id="tUb-hK-cZD"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="b48-dW-r1G">
+                            <items>
+                                <tableRow identifier="REGION_ROW" id="4BY-Jh-Dih" customClass="RegionTableRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="yVO-RX-bVi">
+                                        <items>
+                                            <label alignment="left" text="label" id="JF5-Fo-6S4"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="XDx-aL-E3r" kind="push" id="dhH-YN-lEN"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="JF5-Fo-6S4" id="rct-Ir-az6"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tabel" destination="b48-dW-r1G" id="TOf-HA-8Y9"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="0.0" y="305"/>
+        </scene>
+        <!--Mini Map Interface Controller-->
+        <scene sceneID="9QT-Qk-Le0">
+            <objects>
+                <controller id="XDx-aL-E3r" customClass="MiniMapInterfaceController">
+                    <items>
+                        <map alignment="center" verticalAlignment="center" id="TKN-Ab-cp6"/>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="TKN-Ab-cp6" id="vK0-vV-S3B"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="277" y="312"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

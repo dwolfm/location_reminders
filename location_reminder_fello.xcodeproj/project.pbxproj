@@ -24,6 +24,8 @@
 		C44900C61AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C44900A91AA5402D0032FD5A /* location_reminder_fello WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C4B577AE1AA3F0E500657D8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B577AD1AA3F0E500657D8C /* MapKit.framework */; };
 		C4B577B11AA3FEC700657D8C /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */; };
+		C4F5DDCC1AA794DC00916C65 /* MiniMapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5DDCB1AA794DC00916C65 /* MiniMapInterfaceController.m */; };
+		C4F5DDCF1AA799B600916C65 /* RegionTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F5DDCE1AA799B600916C65 /* RegionTableRowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,10 @@
 		C4B577AD1AA3F0E500657D8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C4B577AF1AA3FEC700657D8C /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
 		C4B577B01AA3FEC700657D8C /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		C4F5DDCA1AA794DC00916C65 /* MiniMapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniMapInterfaceController.h; sourceTree = "<group>"; };
+		C4F5DDCB1AA794DC00916C65 /* MiniMapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniMapInterfaceController.m; sourceTree = "<group>"; };
+		C4F5DDCD1AA799B600916C65 /* RegionTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionTableRowController.h; sourceTree = "<group>"; };
+		C4F5DDCE1AA799B600916C65 /* RegionTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionTableRowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,10 @@
 			children = (
 				C44900AE1AA5402D0032FD5A /* InterfaceController.h */,
 				C44900AF1AA5402D0032FD5A /* InterfaceController.m */,
+				C4F5DDCA1AA794DC00916C65 /* MiniMapInterfaceController.h */,
+				C4F5DDCB1AA794DC00916C65 /* MiniMapInterfaceController.m */,
+				C4F5DDCD1AA799B600916C65 /* RegionTableRowController.h */,
+				C4F5DDCE1AA799B600916C65 /* RegionTableRowController.m */,
 				C44900B11AA5402D0032FD5A /* NotificationController.h */,
 				C44900B21AA5402D0032FD5A /* NotificationController.m */,
 				C44900B41AA5402D0032FD5A /* Images.xcassets */,
@@ -417,6 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F5DDCC1AA794DC00916C65 /* MiniMapInterfaceController.m in Sources */,
+				C4F5DDCF1AA799B600916C65 /* RegionTableRowController.m in Sources */,
 				C44900B31AA5402D0032FD5A /* NotificationController.m in Sources */,
 				C44900B01AA5402D0032FD5A /* InterfaceController.m in Sources */,
 			);
@@ -699,6 +711,7 @@
 				C44900C91AA5402D0032FD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44900CA1AA5402D0032FD5A /* Build configuration list for PBXNativeTarget "location_reminder_fello WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -707,6 +720,7 @@
 				C44900CC1AA5402D0032FD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
